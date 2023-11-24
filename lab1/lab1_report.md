@@ -15,5 +15,4 @@ Date of finished:
 2. Установка make и склонирование hellt/vrnetlab
 3. В проекте hellt/vrnetlab переход в папку routeros, загрузка в эту папку chr-6.47.9.vmdk и с помощью make docker-image собрание образа.
 4. Установка ContainerLab используя специальный скрипт из официального репозитория
-# download and install the latest release (may require sudo)
-bash -c "$(curl -sL https://get.containerlab.dev)"
+   ```bash -c "$(curl -sL https://get.containerlab.dev)"```
