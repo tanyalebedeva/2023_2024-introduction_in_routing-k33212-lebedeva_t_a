@@ -22,7 +22,7 @@ Date of finished:
 2. Установка make и склонирование hellt/vrnetlab
 3. В проекте hellt/vrnetlab переход в папку routeros, загрузка в эту папку chr-6.47.9.vmdk и с помощью make docker-image собрание образа.
 4. Установка ContainerLab используя специальный скрипт из официального репозитория
-   ```bash -c "$(curl -sL https://get.containerlab.dev)"```
+   ```bash -c "$(curl -sL https://get.containerlab.dev)"```     
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/587d84f7-e231-428c-b02d-03a67676b791)
 
 #### <a>Основная часть лабораторной работы</a>  
