@@ -85,11 +85,13 @@ Date of finished:
 #### <a>Текст конфигураций для каждого сетевого устройства</a>
 
 #### <a>Настройка роутера R01</a>:      
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/f6f6100b-182d-4280-9723-8eaff858e192)
+
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/c9234855-282c-4a46-98bc-f2dd110d5a5f)
 
 #### <a>Настройка SW01.L3.01</a>:    
 
 #### <a>Настройка SW02.L3.01</a>:
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/dc04b734-c1c4-4e30-ae0c-1d16300284c3)
 
 #### <a>Настройка SW02.L3.02</a>:
 
