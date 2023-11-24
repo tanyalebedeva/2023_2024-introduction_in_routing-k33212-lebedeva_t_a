@@ -63,3 +63,15 @@ Date of finished:
       ipv4-subnet: 172.30.20.0/24
 
     ```
+2. Сборка контейнера производится с помощью команды:    
+   ```sudo containerlab deploy lab1.yaml```
+3. Построение схемы сети производится с помощью команды:     
+   ```sudo containerlab graph```
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/a09baa95-7a21-4459-9639-1652ea5a3313)
+
+#### <a>Настройка роутера R01.MSK</a>  
+#### <a>Настройка роутера R01.FRT</a>  
+#### <a>Настройка роутера R01.BRL</a>    
+#### <a>Настройка PC1</a>  
+#### <a>Настройка PC2</a>  
+#### <a>Настройка PC3</a>  
