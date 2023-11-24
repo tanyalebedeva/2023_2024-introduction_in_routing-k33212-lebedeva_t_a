@@ -15,11 +15,11 @@ Date of finished:
 ## <a>Цель работы</a>   
 Ознакомиться с инструментом ContainerLab и методами работы с ним, изучить работу VLAN, IP адресации и т.д.
 ## <a>Правила по оформлению</a> 
-Правила по оформлению отчета по лабораторной работе вы можете изучить по ссылке
+Правила по оформлению отчета по лабораторной работе вы можете изучить по <a href="https://itmo-ict-faculty.github.io/introduction-in-routing/education/labs2023_2024/reportdesign/">ссылке</a>
 ## <a>Ход работы</a>   
 #### <a>Подготовка</a>   
 1. Установка Docker на рабочий компьютер
-2. Установка make и склонирование hellt/vrnetlab
+2. Установка make и склонирование <a href="https://github.com/hellt/vrnetlab">hellt/vrnetlab</a>  
 3. В проекте hellt/vrnetlab переход в папку routeros, загрузка в эту папку chr-6.47.9.vmdk и с помощью make docker-image собрание образа.
 4. Установка ContainerLab используя специальный скрипт из официального репозитория       
    ```bash -c "$(curl -sL https://get.containerlab.dev)"```     
