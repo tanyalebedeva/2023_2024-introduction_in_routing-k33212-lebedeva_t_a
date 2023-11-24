@@ -22,3 +22,44 @@ Date of finished:
 ## <a>Ход работы</a>   
 #### <a>Основная часть лабораторной работы:</a>  
 #### <a>Построение сети связи</a>  
+1. Содержимое yaml файла, который использовался для развертывания тестовой сети:
+    ```
+    name: lab2
+    topology:
+      nodes:
+        R01.MSK:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9
+          mgmt-ipv4: 172.30.20.13
+        R01.BRL:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9
+          mgmt-ipv4: 172.30.20.14
+        R01.FRT:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9
+          mgmt-ipv4: 172.30.20.15
+        PC1:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9
+          mgmt-ipv4: 172.30.20.16
+        PC2:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9
+          mgmt-ipv4: 172.30.20.17
+        PC3:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9
+          mgmt-ipv4: 172.30.20.18
+    links:
+        - endpoints: ["R01.MSK:eth2", "R01.FRT:eth2"]
+        - endpoints: ["R01.MSK:eth1", "R01.BRL:eth1"]
+        - endpoints: ["R01.BRL:eth2", "R01.FRT:eth1"]
+        - endpoints: ["R01.MSK:eth3", "PC1:eth3"]
+        - endpoints: ["R01.FRT:eth3", "PC2:eth3"]
+        - endpoints: ["R01.BRL:eth3", "PC3:eth3"]
+    mgmt:
+      network: statics
+      ipv4-subnet: 172.30.20.0/24
+
+    ```
