@@ -18,3 +18,52 @@ Date of finished:
    ```bash -c "$(curl -sL https://get.containerlab.dev)"```
 #### <a>Основная часть лабораторной работы</a>  
 #### <a>Построение трехуровневой сети связи классического предприятия</a>  
+1. Содержимое yaml файла, который использовался для развертывания тестовой сети:
+    ```
+    name: lab1
+topology:
+  nodes:
+    R01:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 192.168.50.2
+
+    Linux1:
+      kind: linux
+      image: alpine:latest
+      cmd: sleep infinity
+      mgmt-ipv4: 192.168.50.3
+
+    Linux2:
+      kind: linux
+      image: alpine:latest
+      cmd: sleep infinity
+      mgmt-ipv4: 192.168.50.4
+      
+    SW01.L3.01:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 192.168.50.5
+
+    SW02.L3.01:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 192.168.50.6
+
+    SW02.L3.02:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 192.168.50.7
+
+  links:
+      - endpoints: ["R01:eth1", "SW01.L3.01:eth1"]
+      - endpoints: ["SW01.L3.01:eth2", "SW02.L3.01:eth1"]
+      - endpoints: ["SW02.L3.01:eth2", "Linux1:eth1"]
+      - endpoints: ["SW01.L3.01:eth3", "SW02.L3.02:eth1"]
+      - endpoints: ["SW02.L3.02:eth2", "Linux2:eth1"]
+
+mgmt:
+  network: static
+  ipv4-subnet: 192.168.50.0/24
+  ```
+
