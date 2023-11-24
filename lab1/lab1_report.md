@@ -81,6 +81,9 @@ Date of finished:
    ```sudo containerlab graph```
 
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/315932fe-de76-4dcb-acb9-1694814c7125)
+
+#### <a>Текст конфигураций для каждого сетевого устройства</a>
+
 #### <a>Настройка роутера R01</a>:      
 
 #### <a>Настройка SW01.L3.01</a>:    
