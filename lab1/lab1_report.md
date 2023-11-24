@@ -70,5 +70,6 @@ Date of finished:
    ```sudo containerlab deploy lab1.yaml```
 5. Построение схемы сети производится с помощью команды:     
    ```sudo containerlab graph```
+
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/315932fe-de76-4dcb-acb9-1694814c7125)
 
