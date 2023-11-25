@@ -70,10 +70,13 @@ Date of finished:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/a09baa95-7a21-4459-9639-1652ea5a3313)
 
 #### <a>Настройка роутера R01.MSK:</a>  
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/d30eceae-6955-4d01-98a8-9384f7d74a3c)
 
 #### <a>Настройка роутера R01.FRT:</a>  
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/843cf854-52dd-4a56-8b40-cb45689792c0)
 
 #### <a>Настройка роутера R01.BRL:</a>    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/8e72ca0d-e717-41b9-b117-f7a1241a3756)
 
 #### <a>Настройка PC1:</a>  
 
