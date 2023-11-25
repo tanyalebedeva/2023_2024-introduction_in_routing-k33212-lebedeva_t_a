@@ -1,4 +1,4 @@
-University: [ITMO University](https://itmo.ru/ru/)  
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/086c2f72-7b74-4eaf-86d4-ded9cda85e6b)University: [ITMO University](https://itmo.ru/ru/)  
 Faculty: [FICT](https://fict.itmo.ru)     
 Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introduction-in-routing)     
 Year: 2023/2024     
@@ -83,16 +83,20 @@ Date of finished:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/315932fe-de76-4dcb-acb9-1694814c7125)
 
 #### <a>Текст конфигураций для каждого сетевого устройства</a>
-
 #### <a>Настройка роутера R01</a>:      
-
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/c9234855-282c-4a46-98bc-f2dd110d5a5f)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/af072327-6cb8-4397-823d-74c87b497bdc)
 
 #### <a>Настройка SW01.L3.01</a>:    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/f8479e1b-3d87-4b41-accb-39077b0d5c26)
 
 #### <a>Настройка SW02.L3.01</a>:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/dc04b734-c1c4-4e30-ae0c-1d16300284c3)
 
 #### <a>Настройка SW02.L3.02</a>:
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/5bfff0ab-593f-4c55-a7f1-36d5f8c7a2c8)
 
 #### <a>Проверка доступонсти (Пингов)</a>:
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/8068cf85-57c1-43cd-a72b-25f0b1f5428a)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/ad57a3cd-34b6-44ee-889b-b11cfdb9ec30)
+
+
