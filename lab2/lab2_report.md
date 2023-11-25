@@ -88,5 +88,6 @@ Date of finished:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/9741eae4-54e1-44f5-b9db-1404697430ca)
 
 #### <a>Проверка доступности:</a>  
-
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/3de7be3f-cc01-40a9-bd38-95f020d34d25)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/bb392c19-cdb7-4327-9c81-f06211be77e4)
 ### <a>Выводы:</a>   
