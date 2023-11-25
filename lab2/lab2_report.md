@@ -79,10 +79,13 @@ Date of finished:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/8e72ca0d-e717-41b9-b117-f7a1241a3756)
 
 #### <a>Настройка PC1:</a>  
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/5519db1a-a818-4191-bf98-b1e304210e84)
 
 #### <a>Настройка PC2:</a>  
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/4ab3184c-9cfc-4e37-9662-9a232480c595)
 
 #### <a>Настройка PC3:</a>  
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/9741eae4-54e1-44f5-b9db-1404697430ca)
 
 #### <a>Проверка доступности:</a>  
 
