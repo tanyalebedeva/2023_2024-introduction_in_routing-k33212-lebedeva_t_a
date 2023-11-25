@@ -1,4 +1,4 @@
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/086c2f72-7b74-4eaf-86d4-ded9cda85e6b)University: [ITMO University](https://itmo.ru/ru/)  
+University: [ITMO University](https://itmo.ru/ru/)  
 Faculty: [FICT](https://fict.itmo.ru)     
 Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introduction-in-routing)     
 Year: 2023/2024     
