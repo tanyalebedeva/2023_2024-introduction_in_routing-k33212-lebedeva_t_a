@@ -88,14 +88,14 @@ Date of finished:
 #### <a>Настройка роутера R01</a>:      
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/af072327-6cb8-4397-823d-74c87b497bdc)     
 Для того, чтобы войти в конфигурацию коммутатора, необходимо вввести команду:
-   ```sudo ssh abmin@clab-lab-SW01.L3.01```    
-#### <a>Настройка SW01.L3.01</a>:    
+   ```sudo ssh abmin@clab-lab-SW01.L3.01```     
+#### <a>Настройка SW01.L3.01</a>:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/f8479e1b-3d87-4b41-accb-39077b0d5c26)     
 Для того, чтобы войти в конфигурацию коммутатора, необходимо вввести команду:
-   ```sudo ssh abmin@clab-lab-SW02.L3.01```    
+   ```sudo ssh abmin@clab-lab-SW02.L3.01```     
 #### <a>Настройка SW02.L3.01</a>:
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/dc04b734-c1c4-4e30-ae0c-1d16300284c3)     
-Для того, чтобы войти в конфигурацию коммутатора, необходимо вввести команду:
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/dc04b734-c1c4-4e30-ae0c-1d16300284c3)      
+Для того, чтобы войти в конфигурацию коммутатора, необходимо вввести команду:    
    ```sudo ssh abmin@clab-lab-SW02.L3.02```    
 #### <a>Настройка SW02.L3.02</a>:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/8068cf85-57c1-43cd-a72b-25f0b1f5428a)
