@@ -64,7 +64,7 @@ Date of finished:
 
     ```
 2. Сборка контейнера производится с помощью команды:    
-   ```sudo containerlab deploy lab1.yaml```
+   ```sudo containerlab deploy lab2.yaml```
 3. Построение схемы сети производится с помощью команды:     
    ```sudo containerlab graph```
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/a09baa95-7a21-4459-9639-1652ea5a3313)
@@ -92,3 +92,4 @@ Date of finished:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/55b8f881-4171-4dc9-b6a9-776c51cd62e4)
 
 ### <a>Выводы:</a>   
+В результате выполнения лабораторной работы было выполнено ознакомление с с принципами планирования IP адресов, настройкой статической маршрутизации и сетевыми функциями устройств.
