@@ -73,23 +73,23 @@ Date of finished:
 Для того, чтобы войти в конфигурацию московского роутера, необходимо вввести команду:        
    ```sudo ssh abmin@clab-lab-R01.MSK```
 #### <a>Настройка роутера R01.MSK:</a>  
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/d30eceae-6955-4d01-98a8-9384f7d74a3c)     
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/d30eceae-6955-4d01-98a8-9384f7d74a3c)        
 Для того, чтобы войти в конфигурацию франкфуртского роутера, необходимо вввести команду:      
    ```sudo ssh abmin@clab-lab-R01.FRT```
 #### <a>Настройка роутера R01.FRT:</a>  
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/843cf854-52dd-4a56-8b40-cb45689792c0)     
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/843cf854-52dd-4a56-8b40-cb45689792c0)       
 Для того, чтобы войти в конфигурацию берлинского роутера, необходимо вввести команду:      
    ```sudo ssh abmin@clab-lab-R01.BRL```
 #### <a>Настройка роутера R01.BRL:</a>    
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/8e72ca0d-e717-41b9-b117-f7a1241a3756)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/8e72ca0d-e717-41b9-b117-f7a1241a3756)     
 Для того, чтобы войти в конфигурацию PC1, необходимо вввести команду:      
    ```sudo ssh abmin@clab-lab-PC1```
 #### <a>Настройка PC1:</a>  
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/5519db1a-a818-4191-bf98-b1e304210e84)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/5519db1a-a818-4191-bf98-b1e304210e84)      
 Для того, чтобы войти в конфигурацию PC2, необходимо вввести команду:      
    ```sudo ssh abmin@clab-lab-PC2```
 #### <a>Настройка PC2:</a>  
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/4ab3184c-9cfc-4e37-9662-9a232480c595)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/4ab3184c-9cfc-4e37-9662-9a232480c595)          
 Для того, чтобы войти в конфигурацию PC3 необходимо вввести команду:      
    ```sudo ssh abmin@clab-lab-PC3```
 #### <a>Настройка PC3:</a>  
