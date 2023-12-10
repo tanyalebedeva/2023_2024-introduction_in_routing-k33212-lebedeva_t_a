@@ -70,3 +70,16 @@ Date of finished:
       network: statics
       ipv4-subnet: 192.168.1.0/24
     ```
+2. Сборка контейнера производится с помощью команды:    
+   ```sudo containerlab deploy lab3.clab.yaml```    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/403f72e8-66ce-4870-947a-4841949722fc)
+
+4. Построение схемы сети производится с помощью команды:     
+   ```sudo containerlab graph```
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/5bdc7279-a1b8-446e-9bb6-b2d8c480ef5b)
+  
+#### <a>Текст конфигураций для каждого сетевого устройства</a>
+Для того, чтобы войти в конфигурацию PC1, необходимо вввести команду:        
+   ```telnet 192.168.1.3```
+#### <a>Настройка PC1:</a>  
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/6d3e4269-ae74-437b-baaf-d71d0d6b6e39)
