@@ -1,0 +1,45 @@
+name: lab3
+topology:
+  nodes:
+    R01_NYC:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+    R01_LND:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9    
+    R01_HKI:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9    
+    R01_SPB:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9        
+    R01_MSK:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9         
+    R01_LBN:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9      
+    PC1:
+      kind: linux
+      image: ubuntu:latest
+      ports:
+        - "8023:23"
+    SGI_Prism:
+      kind: linux
+      image: ubuntu:latest
+      ports:
+        - "9023:23"
+  links:
+    - endpoints: ["SGI_Prism:eth1","R01_NYC:eth1"]
+    - endpoints: ["R01_NYC:eth2","R01_LND:eth1"]
+    - endpoints: ["R01_NYC:eth3","R01_LBN:eth1"]
+    - endpoints: ["R01_LND:eth2","R01_HKI:eth1"]
+    - endpoints: ["R01_LBN:eth2","R01_HKI:eth2"]
+    - endpoints: ["R01_LBN:eth3","R01_MSK:eth1"]
+    - endpoints: ["R01_HKI:eth3","R01_SPB:eth1"]
+    - endpoints: ["R01_SPB:eth2","R01_MSK:eth2"]
+    - endpoints: ["R01_SPB:eth3","PC1:eth1"]
+mgmt:
+  network: statics
+  ipv4-subnet: 192.168.1.0/24
+
