@@ -6,7 +6,7 @@ Group: K33212
 Author: Lebedeva Tatyana Alexandrovna      
 Lab: Lab2          
 Date of create: 08.12.2023       
-Date of finished:        
+Date of finished: 10.12.2023       
 
 ## Лабораторная работ №3 "Эмуляция распределенной корпоративной сети связи, настройка OSPF и MPLS, организация первого EoMPLS"    
 
