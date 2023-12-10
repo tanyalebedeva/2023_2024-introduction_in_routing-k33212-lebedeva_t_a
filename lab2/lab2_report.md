@@ -6,7 +6,7 @@ Group: K33212
 Author: Lebedeva Tatyana Alexandrovna      
 Lab: Lab2          
 Date of create: 23.11.2023       
-Date of finished:        
+Date of finished: 28.11.2023       
 
 ## Лабораторная работ №2 "Эмуляция распределенной корпоративной сети связи, настройка статической маршрутизации между филиалами"    
 
