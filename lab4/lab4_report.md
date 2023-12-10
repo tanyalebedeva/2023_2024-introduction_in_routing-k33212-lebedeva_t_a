@@ -69,3 +69,13 @@ Date of finished:
       network: statics
       ipv4-subnet: 192.168.1.0/24
     ```
+2. Сборка контейнера производится с помощью команды:    
+   ```sudo containerlab deploy lab4.clab.yaml```    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/bfab71ca-e7a2-4767-84fa-58e7a96ad7c8)
+
+4. Построение схемы сети производится с помощью команды:     
+   ```sudo containerlab graph```
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/0711c388-ec2a-435c-92cf-951780185db5)
+
+### <a>Текст конфигураций для каждого сетевого устройства</a>
+#### <a>Настройка R01_SPB с компьютером инженеров в Санк-Петербурге:</a>    
