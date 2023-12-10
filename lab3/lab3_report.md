@@ -83,3 +83,16 @@ Date of finished:
    ```telnet 192.168.1.3```
 #### <a>Настройка PC1:</a>  
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/6d3e4269-ae74-437b-baaf-d71d0d6b6e39)
+
+## <a>Результаты пингов и проверка локальной связности:</a>     
+#### <a>Проследим маршрут следования данных от R01_NYC до R01_SPB:</a>    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/646c5b19-f28c-4346-88ec-fbff93530d18)
+
+#### <a>Конфигурация MPLS:</a>    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/3a296d51-66dc-479d-a38c-c022d3373df0)
+
+#### <a>ICMP запрос от SGI_Prism к PC1:</a>    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/6bad02d3-ac5f-4b44-83e9-c561d6e19ce8)
+
+## <a>Выводы</a>  
+В результате выполнения данной лабораторной работы были изучены протоколы OSPF и MPLS, механизмы организации EoMPLS.в.
