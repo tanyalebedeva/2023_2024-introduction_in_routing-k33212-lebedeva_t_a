@@ -25,3 +25,47 @@ Date of finished:
 #### <a>Построение сети связи</a>  
 1. Содержимое yaml файла, который использовался для развертывания тестовой сети:
     ```
+    name: lab4
+    topology:
+      nodes:
+        R01_NY:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9
+        R01_LND:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9      
+        R01_HKI:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9    
+        R01_SPB:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9      
+        R01_SVL:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9        
+        R01_LBN:
+          kind: vr-ros
+          image: vrnetlab/vr-routeros:6.47.9   
+        PC2:
+          kind: linux
+          image: ubuntu:latest
+        PC1:
+          kind: linux
+          image: ubuntu:latest
+        PC3:
+          kind: linux
+          image: ubuntu:latest
+      links:
+        - endpoints: ["PC2:eth1","R01_NY:eth1"]
+        - endpoints: ["R01_NY:eth2","R01_LND:eth1"]
+        - endpoints: ["R01_LND:eth2","R01_LBN:eth1"]
+        - endpoints: ["R01_LND:eth3","R01_HKI:eth1"]
+        - endpoints: ["R01_LBN:eth2","R01_HKI:eth2"]
+        - endpoints: ["R01_HKI:eth3","R01_SPB:eth1"]
+        - endpoints: ["R01_LBN:eth3","R01_SVL:eth1"]
+        - endpoints: ["R01_SVL:eth2","PC3:eth1"]
+        - endpoints: ["R01_SPB:eth3","PC1:eth1"]
+    mgmt:
+      network: statics
+      ipv4-subnet: 192.168.1.0/24
+    ```
