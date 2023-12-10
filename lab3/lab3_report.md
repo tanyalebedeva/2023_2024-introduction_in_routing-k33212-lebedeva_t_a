@@ -1,4 +1,4 @@
-University: [ITMO University](https://itmo.ru/ru/)  
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/498c136c-6e2b-404a-86a3-fe01c314763d)University: [ITMO University](https://itmo.ru/ru/)  
 Faculty: [FICT](https://fict.itmo.ru)     
 Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introduction-in-routing)     
 Year: 2023/2024     
@@ -108,8 +108,18 @@ Date of finished:
    ```telnet 192.168.1.7```   
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/5c6d317c-dbce-4fb0-8544-199c653951ec)
 
+#### <a>Настройка R01_NYC с сервисом SGI_Prism:</a> 
+##### <a>Настройка R01_NYC:</a> 
+Для того, чтобы войти в конфигурацию R01_NYC, необходимо вввести команду:        
+   ```telnet 192.168.1.8```   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/1deabdab-5011-45b0-ad6f-016ae4ddf2ff)
+##### <a>Настройка SGI_Prism:</a>
+Для того, чтобы войти в конфигурацию SGI_Prism, необходимо вввести команду:        
+   ```telnet 192.168.1.2```   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/e2c10455-0a23-4794-8a6e-b1c725bbf15f)
+
 ## <a>Результаты пингов и проверка локальной связности:</a>     
-### <a>Прослеживание маршрута следования данных от R01_NYC до R01_SPB</a>:
+#### <a>Прослеживание маршрута следования данных от R01_NYC до R01_SPB</a>:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/646c5b19-f28c-4346-88ec-fbff93530d18)
 
 #### <a>Конфигурация MPLS:</a>    
