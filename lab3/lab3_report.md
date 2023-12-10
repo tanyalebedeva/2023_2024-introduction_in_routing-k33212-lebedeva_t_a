@@ -78,12 +78,13 @@ Date of finished:
    ```sudo containerlab graph```
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/5bdc7279-a1b8-446e-9bb6-b2d8c480ef5b)
   
-#### <a>Текст конфигураций для каждого сетевого устройства</a>
+### <a>Текст конфигураций для каждого сетевого устройства</a>
 Для того, чтобы войти в конфигурацию PC1, необходимо вввести команду:        
    ```telnet 192.168.1.3```
-#### <a>Настройка PC1:</a>  
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/6d3e4269-ae74-437b-baaf-d71d0d6b6e39)
-
+#### <a>Настройка R01_SPB с компьютером инженеров в Санк-Петербурге:</a>    
+##### <a>Настройка PC1:</a>  
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/6d3e4269-ae74-437b-baaf-d71d0d6b6e39)    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/e74e278e-9a60-4f7c-97e3-5e16030dbc3d)
 ## <a>Результаты пингов и проверка локальной связности:</a>     
 #### <a>Проследим маршрут следования данных от R01_NYC до R01_SPB:</a>    
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/646c5b19-f28c-4346-88ec-fbff93530d18)
