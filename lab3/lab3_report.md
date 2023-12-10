@@ -89,9 +89,27 @@ Date of finished:
 Для того, чтобы войти в конфигурацию R01_SPB, необходимо вввести команду:        
    ```telnet 192.168.1.9```    
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/8674e65a-5110-4165-8608-127234332026)
+#### <a>Настройка роутеров, которые не связаны с конечными точками и не являются PE(R01_HKI, R01_LBN, R01_LND, R01_MSK):</a>    
+##### <a>Настройка R01_HKI:</a>  
+Для того, чтобы войти в конфигурацию R01_HKI, необходимо вввести команду:        
+   ```telnet 192.168.1.4```   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/96defddd-19d2-4b32-b486-f8cdbc56b3d3)
+##### <a>Настройка R01_LBN:</a>  
+Для того, чтобы войти в конфигурацию R01_LBN, необходимо вввести команду:        
+   ```telnet 192.168.1.5```   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/73278074-9392-4864-bff7-707c6d7c1dbd)
+
+##### <a>Настройка R01_LND:</a>  
+Для того, чтобы войти в конфигурацию R01_LND, необходимо вввести команду:        
+   ```telnet 192.168.1.6```   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/8445576c-c2e9-4d88-960c-27b0eed3eb62)
+##### <a>Настройка R01_MSK:</a>  
+Для того, чтобы войти в конфигурацию R01_MSK, необходимо вввести команду:        
+   ```telnet 192.168.1.7```   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/5c6d317c-dbce-4fb0-8544-199c653951ec)
 
 ## <a>Результаты пингов и проверка локальной связности:</a>     
-#### <a>Проследим маршрут следования данных от R01_NYC до R01_SPB:</a>    
+### <a>Прослеживание маршрута следования данных от R01_NYC до R01_SPB</a>:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/646c5b19-f28c-4346-88ec-fbff93530d18)
 
 #### <a>Конфигурация MPLS:</a>    
