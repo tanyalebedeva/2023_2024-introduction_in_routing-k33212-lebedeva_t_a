@@ -6,7 +6,7 @@ Group: K33212
 Author: Lebedeva Tatyana Alexandrovna      
 Lab: Lab1       
 Date of create: 21.10.2023       
-Date of finished:        
+Date of finished: 28.11.2023        
 
 ## Лабораторная работ №1 "Установка ContainerLab и развертывание тестовой сети связи"   
 ## <a>Описание</a>   
