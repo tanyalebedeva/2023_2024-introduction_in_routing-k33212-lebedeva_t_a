@@ -67,15 +67,68 @@ Date of finished:
         - endpoints: ["R01_SPB:eth3","PC1:eth1"]
     mgmt:
       network: statics
-      ipv4-subnet: 192.168.1.0/24
+      ipv4-subnet: 172.20.20.0/24
     ```
 2. Сборка контейнера производится с помощью команды:    
    ```sudo containerlab deploy lab4.clab.yaml```    
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/bfab71ca-e7a2-4767-84fa-58e7a96ad7c8)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/ef503b52-2620-47e2-8611-289ee3a51c49)
+
 
 4. Построение схемы сети производится с помощью команды:     
    ```sudo containerlab graph```
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/0711c388-ec2a-435c-92cf-951780185db5)
 
 ### <a>Текст конфигураций для каждого сетевого устройства</a>
-#### <a>Настройка R01_SPB с компьютером инженеров в Санк-Петербурге:</a>    
+#### <a>Настройка R01_NY:</a>    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/cb2b6d1d-af22-4dd0-b147-01dea6eff133)    
+#### <a>Настройка R01_SBP:</a>    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/d501bd16-8d7d-4227-8e42-be0373571436)    
+#### <a>Настройка R01_SVL:</a>    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/eb77e0d7-edad-468c-af46-7f7d16e5cff8)    
+#### <a>Настройка R01_HKI:</a>     
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/c19086c1-9b81-466b-88e1-bfb8ef1c370d)    
+#### <a>Настройка R01_LND:</a>     
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/d3553d59-dd34-4b94-89b9-c257d615b260)    
+#### <a>Настройка R01_LBN:</a>   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/7db25040-1ca7-45e5-9515-6968e6e638d5)    
+
+### <a>Результаты пингов. Проверка связности VRF:</a> 
+
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/ec6c75ec-f655-46e8-bc3a-d8f0995746ba)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/1e0131f1-cf25-4207-b897-33160d4498eb)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/1631fcca-217d-4bb6-b820-da5b22d31f9c)
+
+### <a>Вторая часть</a> 
+#### <a>Настройка PC1:</a>   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/5635729c-eb59-411e-a23a-c5187eab4bf2)    
+#### <a>Настройка PC2:</a>   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/b8be430f-c392-48ed-929a-3b6e56c1cd47)    
+#### <a>Настройка PC3:</a>   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/aff74d13-c19b-4beb-9084-fcdf7aad90d5)    
+#### <a>Настройка R01_SVL:</a>   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/e0f7491a-6b62-4b34-8db8-877bb0ef7bb3)    
+#### <a>Настройка R01_NY:</a>   
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/c1d85b54-17ea-4a13-98a2-161ec7ccf8a7)    
+#### <a>Настройка R01_SPB:</a>  
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/b75533f9-346b-45ef-8960-c2103f2f75f6)    
+
+### <a>Результаты пингов. Проверка локальной связности:</a>    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/19a57c15-e556-41d1-95fe-d5c540fbccec)    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/4545fc33-2b76-400d-b3ff-461057cd8990)     
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/4c05a472-197d-4d92-acf5-5769aa24ece0)     
+
+## <a>Выводы</a>  
+В результате выполнения данной лабораторной раюоты были изучены протоколы BGP, MPLS и правила организации L3VPN и VPLS.
+
+
+
+
+
+
+
+
+
+
+
+
+
