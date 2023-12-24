@@ -109,7 +109,8 @@ Date of finished:
  ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/c2726fcd-e0d7-4109-aa1f-fb846372b5bd)
 
 #### <a>Настройка R01_NY:</a>   
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/c1d85b54-17ea-4a13-98a2-161ec7ccf8a7)    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/e75e0d28-39ae-4b97-a728-f08d7d13775b)
+    
 #### <a>Настройка R01_SPB:</a>  
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/b75533f9-346b-45ef-8960-c2103f2f75f6)    
 
