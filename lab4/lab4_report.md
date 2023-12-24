@@ -106,10 +106,12 @@ Date of finished:
 #### <a>Настройка PC3:</a>   
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/aff74d13-c19b-4beb-9084-fcdf7aad90d5)    
 #### <a>Настройка R01_SVL:</a>   
- ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/c2726fcd-e0d7-4109-aa1f-fb846372b5bd)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/95bcbd50-7944-443a-8fe7-72ce5e9e7dbd)
+
 
 #### <a>Настройка R01_NY:</a>   
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/e75e0d28-39ae-4b97-a728-f08d7d13775b)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/79b88022-b1a9-4286-9880-8655ad3cf429)
+
     
 #### <a>Настройка R01_SPB:</a>  
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/02e368e8-38ce-4755-afa7-7d70a5b1ef61)
