@@ -112,7 +112,8 @@ Date of finished:
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/e75e0d28-39ae-4b97-a728-f08d7d13775b)
     
 #### <a>Настройка R01_SPB:</a>  
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/b75533f9-346b-45ef-8960-c2103f2f75f6)    
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/02e368e8-38ce-4755-afa7-7d70a5b1ef61)
+    
 
 ### <a>Результаты пингов. Проверка локальной связности:</a>    
 ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/19a57c15-e556-41d1-95fe-d5c540fbccec)    
