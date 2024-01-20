@@ -77,31 +77,42 @@ Date of finished: 28.11.2023
     ```
 3. Сборка контейнера производится с помощью команды:    
    ```sudo containerlab deploy lab1.yaml```
+   
+   ![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/e1dc85b0-edcc-43a8-b2ff-e3586754f59b)
+   
+
 5. Построение схемы сети производится с помощью команды:     
    ```sudo containerlab graph```
 
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/315932fe-de76-4dcb-acb9-1694814c7125)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/c44a15e2-6492-49d2-983f-1bc3c2422f92)
+
 
 #### <a>Текст конфигураций для каждого сетевого устройства</a>
 Для того, чтобы войти в конфигурацию роутера, необходимо вввести команду:     
    ```sudo ssh abmin@clab-lab-R01```    
 #### <a>Настройка роутера R01</a>:      
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/af072327-6cb8-4397-823d-74c87b497bdc)     
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/56f00896-c623-45a5-96d2-d3466d639fa5)
+     
 Для того, чтобы войти в конфигурацию коммутатора, необходимо вввести команду:
    ```sudo ssh abmin@clab-lab-SW01.L3.01```     
 #### <a>Настройка SW01.L3.01</a>:
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/f8479e1b-3d87-4b41-accb-39077b0d5c26)     
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/bd8114c8-f917-4520-8852-e862351e4dbc)    
+     
 Для того, чтобы войти в конфигурацию коммутатора, необходимо вввести команду:
    ```sudo ssh abmin@clab-lab-SW02.L3.01```     
 #### <a>Настройка SW02.L3.01</a>:
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/dc04b734-c1c4-4e30-ae0c-1d16300284c3)      
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/76a603a8-acb4-4d4f-8297-f8f4f852542d)    
+      
 Для того, чтобы войти в конфигурацию коммутатора, необходимо вввести команду:    
    ```sudo ssh abmin@clab-lab-SW02.L3.02```    
 #### <a>Настройка SW02.L3.02</a>:
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/8068cf85-57c1-43cd-a72b-25f0b1f5428a)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/34b88725-9737-471d-871e-871bff2d579a)    
+
 #### <a>Проверка доступонсти. Результаты пингов</a>:
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/5bfff0ab-593f-4c55-a7f1-36d5f8c7a2c8)
-![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/ad57a3cd-34b6-44ee-889b-b11cfdb9ec30)
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/8f4e7f9e-9332-4da1-9f2c-7187375fcc45)    
+
+![image](https://github.com/tanyalebedeva/2023_2024-introduction_in_routing-k33212-lebedeva_t_a/assets/90707032/3b9f4128-ed13-4e52-bec9-05ca827a4a3e)    
+
 
 ### <a>Вывод</a>:
 В результате выполнения лабораторной работы было произведено ознакомление с инструментом ContainerLab и методами работы с ним, изучена работа VLAN, IP адресации и т.д.
