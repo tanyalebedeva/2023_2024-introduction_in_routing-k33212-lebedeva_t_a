@@ -4,34 +4,34 @@ topology:
     R01.MSK:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt-ipv4: 172.30.20.13
+      mgmt-ipv4: 192.168.60.2
     R01.BRL:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt-ipv4: 172.30.20.14
+      mgmt-ipv4: 192.168.60.3
     R01.FRT:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt-ipv4: 172.30.20.15
+      mgmt-ipv4: 192.168.60.4
     PC1:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt-ipv4: 172.30.20.16
+      mgmt-ipv4: 192.168.60.5
     PC2:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt-ipv4: 172.30.20.17
+      mgmt-ipv4: 192.168.60.6
     PC3:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt-ipv4: 172.30.20.18
+      mgmt-ipv4: 192.168.60.7
   links:
-      - endpoints: ["R01.MSK:eth2", "R01.FRT:eth2"]
-      - endpoints: ["R01.MSK:eth1", "R01.BRL:eth1"]
-      - endpoints: ["R01.BRL:eth2", "R01.FRT:eth1"]
-      - endpoints: ["R01.MSK:eth3", "PC1:eth3"]
-      - endpoints: ["R01.FRT:eth3", "PC2:eth3"]
-      - endpoints: ["R01.BRL:eth3", "PC3:eth3"]
+      - endpoints: ["R01.MSK:eth3", "R01.FRT:eth3"]
+      - endpoints: ["R01.MSK:eth2", "R01.BRL:eth3"]
+      - endpoints: ["R01.BRL:eth2", "R01.FRT:eth2"]
+      - endpoints: ["R01.MSK:eth1", "PC1:eth1"]
+      - endpoints: ["R01.FRT:eth1", "PC2:eth1"]
+      - endpoints: ["R01.BRL:eth1", "PC3:eth1"]
 mgmt:
   network: statics
-  ipv4-subnet: 172.30.20.0/24
+  ipv4-subnet: 192.168.60.0/24
